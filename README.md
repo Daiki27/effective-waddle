@@ -1,5 +1,4 @@
 # Using OpenCV in swift without objectiveC++
-Ref : [Qita : @treastrain, OpenCV が Objective-C / Swift で使えるようになります & 使ってみた](https://qiita.com/treastrain/items/0090d1103033b20de054)
 
 ### Procedure
 Copy the remote repository to the local environment.
@@ -34,3 +33,6 @@ If you encontter a runtime error, the following tasks may help.
 xcode Navigator Area > click "testProgect" > click Targets "testProgect" > Build Settings (All Combined) > Linking > Other Linker Flags
 => add -all_load
 ```
+
+### Ref
+Ref : [Qita : @treastrain, OpenCV が Objective-C / Swift で使えるようになります & 使ってみた](https://qiita.com/treastrain/items/0090d1103033b20de054)
