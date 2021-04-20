@@ -40,7 +40,6 @@ I implemented a program to extract edge information from input image. The edge e
 <p align="center">
   <img src="https://user-images.githubusercontent.com/27540739/115432297-2e66e000-a241-11eb-8594-3b3bfe15cd86.png" />
 </p>
-### Supplement
 
 ### Ref
 Outline : [Qita : @treastrain, OpenCV が Objective-C / Swift で使えるようになります & 使ってみた](https://qiita.com/treastrain/items/0090d1103033b20de054)  
