@@ -15,6 +15,12 @@
 		0DF0D053262B490B00B249AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF0D051262B490B00B249AE /* LaunchScreen.storyboard */; };
 		0DF0D05E262B490C00B249AE /* BASICS_swiftOpenCVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0D05D262B490C00B249AE /* BASICS_swiftOpenCVTests.swift */; };
 		0DF0D069262B490C00B249AE /* BASICS_swiftOpenCVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0D068262B490C00B249AE /* BASICS_swiftOpenCVUITests.swift */; };
+		0DF0D07B262B496D00B249AE /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF0D07A262B496D00B249AE /* opencv2.framework */; };
+		0DF0D07D262B499700B249AE /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF0D07C262B499700B249AE /* libc++.tbd */; };
+		0DF0D088262B4CA900B249AE /* river.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF0D087262B4CA900B249AE /* river.png */; };
+		0DF0D08D262F1F2D00B249AE /* plant.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF0D08C262F1F2D00B249AE /* plant.png */; };
+		0DF0D092262F20E700B249AE /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF0D091262F20E700B249AE /* robot.png */; };
+		0DF0D097262F389F00B249AE /* robot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF0D096262F389F00B249AE /* robot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		0DF0D064262B490C00B249AE /* BASICS_swiftOpenCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BASICS_swiftOpenCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF0D068262B490C00B249AE /* BASICS_swiftOpenCVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASICS_swiftOpenCVUITests.swift; sourceTree = "<group>"; };
 		0DF0D06A262B490C00B249AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF0D07A262B496D00B249AE /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv/platforms/ios/opencv2.framework; sourceTree = "<group>"; };
+		0DF0D07C262B499700B249AE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0DF0D087262B4CA900B249AE /* river.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = river.png; path = ../../river.png; sourceTree = "<group>"; };
+		0DF0D08C262F1F2D00B249AE /* plant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plant.png; path = ../../plant.png; sourceTree = "<group>"; };
+		0DF0D091262F20E700B249AE /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot.png; path = ../../../Downloads/robot.png; sourceTree = "<group>"; };
+		0DF0D096262F389F00B249AE /* robot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot2.png; path = ../../../Downloads/robot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF0D07D262B499700B249AE /* libc++.tbd in Frameworks */,
+				0DF0D07B262B496D00B249AE /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +97,7 @@
 				0DF0D05C262B490C00B249AE /* BASICS_swiftOpenCVTests */,
 				0DF0D067262B490C00B249AE /* BASICS_swiftOpenCVUITests */,
 				0DF0D044262B490800B249AE /* Products */,
+				0DF0D079262B496D00B249AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +116,10 @@
 			children = (
 				0DF0D046262B490800B249AE /* AppDelegate.swift */,
 				0DF0D048262B490800B249AE /* SceneDelegate.swift */,
+				0DF0D08C262F1F2D00B249AE /* plant.png */,
+				0DF0D096262F389F00B249AE /* robot2.png */,
+				0DF0D091262F20E700B249AE /* robot.png */,
+				0DF0D087262B4CA900B249AE /* river.png */,
 				0DF0D04A262B490800B249AE /* ViewController.swift */,
 				0DF0D04C262B490800B249AE /* Main.storyboard */,
 				0DF0D04F262B490B00B249AE /* Assets.xcassets */,
@@ -126,6 +145,15 @@
 				0DF0D06A262B490C00B249AE /* Info.plist */,
 			);
 			path = BASICS_swiftOpenCVUITests;
+			sourceTree = "<group>";
+		};
+		0DF0D079262B496D00B249AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0D07C262B499700B249AE /* libc++.tbd */,
+				0DF0D07A262B496D00B249AE /* opencv2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF0D092262F20E700B249AE /* robot.png in Resources */,
+				0DF0D097262F389F00B249AE /* robot2.png in Resources */,
+				0DF0D088262B4CA900B249AE /* river.png in Resources */,
 				0DF0D053262B490B00B249AE /* LaunchScreen.storyboard in Resources */,
+				0DF0D08D262F1F2D00B249AE /* plant.png in Resources */,
 				0DF0D050262B490B00B249AE /* Assets.xcassets in Resources */,
 				0DF0D04E262B490800B249AE /* Main.storyboard in Resources */,
 			);
@@ -438,11 +470,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7X7Q6B72BR;
+				FRAMEWORK_SEARCH_PATHS = /Users/higuchidaiki/Desktop/opencv/platforms/ios;
 				INFOPLIST_FILE = BASICS_swiftOpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Daiki.BASICS-swiftOpenCV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -457,11 +491,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7X7Q6B72BR;
+				FRAMEWORK_SEARCH_PATHS = /Users/higuchidaiki/Desktop/opencv/platforms/ios;
 				INFOPLIST_FILE = BASICS_swiftOpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Daiki.BASICS-swiftOpenCV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
