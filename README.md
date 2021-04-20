@@ -1,4 +1,5 @@
 # Using OpenCV in swift without objectiveC++
+There is a possibility that the version of OpenCV I am using is 2.2, and since you are using OpenCV 4 or later when working with Python and other applications, the usage of OpenCV 2.2 seems to be old and difficult to use compared to that version. Also, I have not been able to even use the additional OpenCV ([opencv_contrib](https://github.com/opencv/opencv_contrib)) instead of the mainstream OpenCV. As a result, it is not possible to use the additional functions such as oil painting style image processing with [xPhoto](https://docs.opencv.org/master/de/daa/group__xphoto.html#gac050a6e876298cb9713cd2c09db9a027).
 
 ### Procedure
 Copy the remote repository to the local environment.
@@ -34,5 +35,13 @@ xcode Navigator Area > click "testProgect" > click Targets "testProgect" > Build
 => add -all_load
 ```
 
+### Execution Result
+I implemented a program to extract edge information from input image. The edge extraction is based on the Canny method.  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/27540739/115432297-2e66e000-a241-11eb-8594-3b3bfe15cd86.png" />
+</p>
+### Supplement
+
 ### Ref
-Ref : [Qita : @treastrain, OpenCV が Objective-C / Swift で使えるようになります & 使ってみた](https://qiita.com/treastrain/items/0090d1103033b20de054)
+Outline : [Qita : @treastrain, OpenCV が Objective-C / Swift で使えるようになります & 使ってみた](https://qiita.com/treastrain/items/0090d1103033b20de054)  
+Robot Image : https://pixabay.com/ja/illustrations/%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88-%E3%81%8A%E3%82%82%E3%81%A1%E3%82%83-%E9%87%91%E5%B1%9E-1797548/
