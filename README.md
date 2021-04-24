@@ -38,7 +38,7 @@ xcode Navigator Area > click "testProgect" > click Targets "testProgect" > Build
 ### Execution Result
 I implemented a program to extract edge information from input image. The edge extraction is based on the Canny method.  
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/27540739/115432297-2e66e000-a241-11eb-8594-3b3bfe15cd86.png" />
+  <img src="https://user-images.githubusercontent.com/27540739/115964684-a1819680-a560-11eb-99aa-83414b08edf3.jpeg" />
 </p>
 
 ### Ref
